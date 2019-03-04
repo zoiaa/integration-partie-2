@@ -1,0 +1,248 @@
+
+/* police */
+@font-face {
+font-family: "Aniron";
+src: url("police/anirm___.ttf") format("truetype");
+}
+
+/* Déclaration de la police version "gras" */
+@font-face {
+font-family: "Anironbold";
+font-weight: bold;
+src: url("police/anirb___.ttf") format("truetype");
+}
+
+
+@font-face {
+font-family: "party";
+font-weight: bold;
+src: url("police/partybusiness.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "tnganb";
+font-weight: bold;
+src: url("police/tnganb.ttf") format("truetype");
+}
+
+h2, h3, h4, h5, h6{
+font-family: Aniron;
+}
+
+p, small, button, form, table, footer{
+  font-family: "party";
+  font-size:17px;
+}
+
+.symbole{
+ font-family: "tnganb"; 
+}
+
+.card-header{
+  font-family:"party";
+  font-size:20px;
+}
+
+.class-item{
+  font-family: Aniron;
+}
+
+/* Carousel */
+
+.carousel-item {
+    display: table;
+    text-align: center;
+    padding: 12px;
+}
+
+.carousel-item h5 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.carousel-caption{
+  padding:13px;
+  color:red;
+  vertical-align: middle;
+}
+
+
+#best {
+color:black;
+background-color:white;
+background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png);
+}
+
+.carousel-inner{
+ background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png); 
+}
+
+.sauron{
+  font-size:45px;
+}
+
+.please{
+   font-size:25px;
+}
+
+/* Navbar */
+
+#nav{
+  background-color : #F7730C;
+  color:white;
+  font-family: Aniron;
+  font-size:11px;
+}
+/* Reward */
+
+#getmyreward{
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand, .nav-link{
+  color: white;
+}
+
+/* Contact us */
+
+#contact{
+  background-color: black;
+  color: white;
+}
+
+/* About the ring */
+
+
+#ring{
+  background-color: black;
+  color: white;
+}
+
+#gollum{
+  background-color: black;
+  color: white;
+}
+
+.card-header{
+  color:white;
+  background-color: #F7730C;
+}
+
+.cardgollum{
+  color:black;
+}
+
+/* Fellows */
+
+.gandalf{
+  margin-top: 150px;
+  left: 70px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+}
+
+.aragorn{
+  margin-top: 150px;
+  left: 70px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+}
+
+.gimli{
+  margin-top: 150px;
+  left: 90px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+  text-decoration: line-through;
+}
+
+.card{
+  position:relative;
+  width: 300px;
+  padding: 8px;
+  background-color: red;
+}
+
+.card-title{
+  color:white;
+  text-align:center;
+}
+
+
+.card .reward span{
+  color: orange;
+}
+
+
+.reward{
+  margin-top: 15px;
+  left: 50px;
+  top:0;
+  color: black;
+  position:absolute;
+  font-family: Aniron;
+  color: white;
+}
+
+.card-img-top{
+  background-color:white;
+  opacity: 0.2;
+}
+
+.card:hover .card-img-top{
+	opacity: 1;
+}
+
+.card:hover .reward{
+  visibility: hidden;
+}
+
+.dead{
+  margin-top: 15px;
+  left: 150px;
+  top:0;
+  color: orange;
+  font-size: 35px;
+  position:absolute;
+  font-family: "party";
+}
+
+.card:hover .dead{
+  visibility: hidden;
+
+}
+
+#fellows{
+  font-family: "party";
+  text-align: center;
+  font-size: 33px;
+  background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png);
+}
+
+f#ellowss{
+  background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png)
+}
+
+#jointhearmy{
+  background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png);
+}
+
+/* Footer */
+
+.footer{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #F7730C;
+  font-size: 17px;
+}
+
+.footer a{
+  color: white;
+}
